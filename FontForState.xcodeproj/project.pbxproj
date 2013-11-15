@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F70F2718369B9B0040C1C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F70F2618369B9B0040C1C7 /* Foundation.framework */; };
+		B5F70F2918369B9B0040C1C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F70F2818369B9B0040C1C7 /* CoreGraphics.framework */; };
+		B5F70F2B18369B9B0040C1C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F70F2A18369B9B0040C1C7 /* UIKit.framework */; };
+		B5F70F3118369B9B0040C1C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5F70F2F18369B9B0040C1C7 /* InfoPlist.strings */; };
+		B5F70F3318369B9B0040C1C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F70F3218369B9B0040C1C7 /* main.m */; };
+		B5F70F3718369B9B0040C1C7 /* IPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F70F3618369B9B0040C1C7 /* IPAppDelegate.m */; };
+		B5F70F3A18369B9B0040C1C7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F70F3818369B9B0040C1C7 /* Main_iPhone.storyboard */; };
+		B5F70F4018369B9B0040C1C7 /* IPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F70F3F18369B9B0040C1C7 /* IPViewController.m */; };
+		B5F70F4218369B9B0040C1C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F70F4118369B9B0040C1C7 /* Images.xcassets */; };
+		B5F70F4918369B9B0040C1C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F70F4818369B9B0040C1C7 /* XCTest.framework */; };
+		B5F70F4A18369B9B0040C1C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F70F2618369B9B0040C1C7 /* Foundation.framework */; };
+		B5F70F4B18369B9B0040C1C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F70F2A18369B9B0040C1C7 /* UIKit.framework */; };
+		B5F70F5318369B9B0040C1C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5F70F5118369B9B0040C1C7 /* InfoPlist.strings */; };
+		B5F70F5518369B9B0040C1C7 /* FontForStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F70F5418369B9B0040C1C7 /* FontForStateTests.m */; };
+		B5F70F6018369BAD0040C1C7 /* UIButton+FontForState.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F70F5F18369BAD0040C1C7 /* UIButton+FontForState.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5F70F4C18369B9B0040C1C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F70F1B18369B9B0040C1C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F70F2218369B9B0040C1C7;
+			remoteInfo = FontForState;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5F70F2318369B9B0040C1C7 /* FontForState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontForState.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F70F2618369B9B0040C1C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5F70F2818369B9B0040C1C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5F70F2A18369B9B0040C1C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5F70F2E18369B9B0040C1C7 /* FontForState-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontForState-Info.plist"; sourceTree = "<group>"; };
+		B5F70F3018369B9B0040C1C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5F70F3218369B9B0040C1C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5F70F3418369B9B0040C1C7 /* FontForState-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FontForState-Prefix.pch"; sourceTree = "<group>"; };
+		B5F70F3518369B9B0040C1C7 /* IPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPAppDelegate.h; sourceTree = "<group>"; };
+		B5F70F3618369B9B0040C1C7 /* IPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPAppDelegate.m; sourceTree = "<group>"; };
+		B5F70F3918369B9B0040C1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B5F70F3E18369B9B0040C1C7 /* IPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPViewController.h; sourceTree = "<group>"; };
+		B5F70F3F18369B9B0040C1C7 /* IPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPViewController.m; sourceTree = "<group>"; };
+		B5F70F4118369B9B0040C1C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5F70F4718369B9B0040C1C7 /* FontForStateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontForStateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F70F4818369B9B0040C1C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B5F70F5018369B9B0040C1C7 /* FontForStateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontForStateTests-Info.plist"; sourceTree = "<group>"; };
+		B5F70F5218369B9B0040C1C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5F70F5418369B9B0040C1C7 /* FontForStateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontForStateTests.m; sourceTree = "<group>"; };
+		B5F70F5E18369BAD0040C1C7 /* UIButton+FontForState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FontForState.h"; sourceTree = "<group>"; };
+		B5F70F5F18369BAD0040C1C7 /* UIButton+FontForState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FontForState.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F70F2018369B9B0040C1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F70F2918369B9B0040C1C7 /* CoreGraphics.framework in Frameworks */,
+				B5F70F2B18369B9B0040C1C7 /* UIKit.framework in Frameworks */,
+				B5F70F2718369B9B0040C1C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F70F4418369B9B0040C1C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F70F4918369B9B0040C1C7 /* XCTest.framework in Frameworks */,
+				B5F70F4B18369B9B0040C1C7 /* UIKit.framework in Frameworks */,
+				B5F70F4A18369B9B0040C1C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F70F1A18369B9B0040C1C7 = {
+			isa = PBXGroup;
+			children = (
+				B5F70F2C18369B9B0040C1C7 /* FontForState */,
+				B5F70F4E18369B9B0040C1C7 /* FontForStateTests */,
+				B5F70F2518369B9B0040C1C7 /* Frameworks */,
+				B5F70F2418369B9B0040C1C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F70F2418369B9B0040C1C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F70F2318369B9B0040C1C7 /* FontForState.app */,
+				B5F70F4718369B9B0040C1C7 /* FontForStateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F70F2518369B9B0040C1C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F70F2618369B9B0040C1C7 /* Foundation.framework */,
+				B5F70F2818369B9B0040C1C7 /* CoreGraphics.framework */,
+				B5F70F2A18369B9B0040C1C7 /* UIKit.framework */,
+				B5F70F4818369B9B0040C1C7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5F70F2C18369B9B0040C1C7 /* FontForState */ = {
+			isa = PBXGroup;
+			children = (
+				B5F70F3518369B9B0040C1C7 /* IPAppDelegate.h */,
+				B5F70F3618369B9B0040C1C7 /* IPAppDelegate.m */,
+				B5F70F3818369B9B0040C1C7 /* Main_iPhone.storyboard */,
+				B5F70F3E18369B9B0040C1C7 /* IPViewController.h */,
+				B5F70F3F18369B9B0040C1C7 /* IPViewController.m */,
+				B5F70F5E18369BAD0040C1C7 /* UIButton+FontForState.h */,
+				B5F70F5F18369BAD0040C1C7 /* UIButton+FontForState.m */,
+				B5F70F4118369B9B0040C1C7 /* Images.xcassets */,
+				B5F70F2D18369B9B0040C1C7 /* Supporting Files */,
+			);
+			path = FontForState;
+			sourceTree = "<group>";
+		};
+		B5F70F2D18369B9B0040C1C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F70F2E18369B9B0040C1C7 /* FontForState-Info.plist */,
+				B5F70F2F18369B9B0040C1C7 /* InfoPlist.strings */,
+				B5F70F3218369B9B0040C1C7 /* main.m */,
+				B5F70F3418369B9B0040C1C7 /* FontForState-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5F70F4E18369B9B0040C1C7 /* FontForStateTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F70F5418369B9B0040C1C7 /* FontForStateTests.m */,
+				B5F70F4F18369B9B0040C1C7 /* Supporting Files */,
+			);
+			path = FontForStateTests;
+			sourceTree = "<group>";
+		};
+		B5F70F4F18369B9B0040C1C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F70F5018369B9B0040C1C7 /* FontForStateTests-Info.plist */,
+				B5F70F5118369B9B0040C1C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F70F2218369B9B0040C1C7 /* FontForState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F70F5818369B9B0040C1C7 /* Build configuration list for PBXNativeTarget "FontForState" */;
+			buildPhases = (
+				B5F70F1F18369B9B0040C1C7 /* Sources */,
+				B5F70F2018369B9B0040C1C7 /* Frameworks */,
+				B5F70F2118369B9B0040C1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontForState;
+			productName = FontForState;
+			productReference = B5F70F2318369B9B0040C1C7 /* FontForState.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5F70F4618369B9B0040C1C7 /* FontForStateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F70F5B18369B9B0040C1C7 /* Build configuration list for PBXNativeTarget "FontForStateTests" */;
+			buildPhases = (
+				B5F70F4318369B9B0040C1C7 /* Sources */,
+				B5F70F4418369B9B0040C1C7 /* Frameworks */,
+				B5F70F4518369B9B0040C1C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F70F4D18369B9B0040C1C7 /* PBXTargetDependency */,
+			);
+			name = FontForStateTests;
+			productName = FontForStateTests;
+			productReference = B5F70F4718369B9B0040C1C7 /* FontForStateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F70F1B18369B9B0040C1C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Intrepid Pursuits";
+				TargetAttributes = {
+					B5F70F4618369B9B0040C1C7 = {
+						TestTargetID = B5F70F2218369B9B0040C1C7;
+					};
+				};
+			};
+			buildConfigurationList = B5F70F1E18369B9B0040C1C7 /* Build configuration list for PBXProject "FontForState" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F70F1A18369B9B0040C1C7;
+			productRefGroup = B5F70F2418369B9B0040C1C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F70F2218369B9B0040C1C7 /* FontForState */,
+				B5F70F4618369B9B0040C1C7 /* FontForStateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F70F2118369B9B0040C1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F70F4218369B9B0040C1C7 /* Images.xcassets in Resources */,
+				B5F70F3A18369B9B0040C1C7 /* Main_iPhone.storyboard in Resources */,
+				B5F70F3118369B9B0040C1C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F70F4518369B9B0040C1C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F70F5318369B9B0040C1C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F70F1F18369B9B0040C1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F70F3318369B9B0040C1C7 /* main.m in Sources */,
+				B5F70F3718369B9B0040C1C7 /* IPAppDelegate.m in Sources */,
+				B5F70F6018369BAD0040C1C7 /* UIButton+FontForState.m in Sources */,
+				B5F70F4018369B9B0040C1C7 /* IPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F70F4318369B9B0040C1C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F70F5518369B9B0040C1C7 /* FontForStateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5F70F4D18369B9B0040C1C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F70F2218369B9B0040C1C7 /* FontForState */;
+			targetProxy = B5F70F4C18369B9B0040C1C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5F70F2F18369B9B0040C1C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F70F3018369B9B0040C1C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5F70F3818369B9B0040C1C7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F70F3918369B9B0040C1C7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F70F5118369B9B0040C1C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F70F5218369B9B0040C1C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F70F5618369B9B0040C1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F70F5718369B9B0040C1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F70F5918369B9B0040C1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontForState/FontForState-Prefix.pch";
+				INFOPLIST_FILE = "FontForState/FontForState-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5F70F5A18369B9B0040C1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontForState/FontForState-Prefix.pch";
+				INFOPLIST_FILE = "FontForState/FontForState-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B5F70F5C18369B9B0040C1C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontForState.app/FontForState";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontForState/FontForState-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FontForStateTests/FontForStateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B5F70F5D18369B9B0040C1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FontForState.app/FontForState";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FontForState/FontForState-Prefix.pch";
+				INFOPLIST_FILE = "FontForStateTests/FontForStateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F70F1E18369B9B0040C1C7 /* Build configuration list for PBXProject "FontForState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F70F5618369B9B0040C1C7 /* Debug */,
+				B5F70F5718369B9B0040C1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F70F5818369B9B0040C1C7 /* Build configuration list for PBXNativeTarget "FontForState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F70F5918369B9B0040C1C7 /* Debug */,
+				B5F70F5A18369B9B0040C1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F70F5B18369B9B0040C1C7 /* Build configuration list for PBXNativeTarget "FontForStateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F70F5C18369B9B0040C1C7 /* Debug */,
+				B5F70F5D18369B9B0040C1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F70F1B18369B9B0040C1C7 /* Project object */;
+}
