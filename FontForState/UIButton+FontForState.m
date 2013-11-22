@@ -51,6 +51,8 @@ static char *const kFontForStateDictionaryKey               = "kFontForStateDict
         NSLog(@"font: %@", font);
         if (font) {
             [self.titleLabel setFont:font];
+        } else {
+            [self.titleLabel setFont:[self fontForState:UIControlStateNormal]];
         }
     }
 }
